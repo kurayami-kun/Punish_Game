@@ -1,0 +1,135 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    text-align:center;
+    background-color:rgb(55, 67, 83);
+    height:100vh;
+}
+h1{
+    display:inline-block;
+    border:5px rgb(218, 0, 0) dashed;
+    text-shadow:0px 0px 5px black;
+    box-shadow:0px 0px 5px black;
+    border-radius:10px;
+    padding:10px 20px 10px 20px;
+    color:rgb(218, 0, 0);
+    letter-spacing:2px;
+    margin-top:40px;
+    font-size:70px;
+}
+.players, .punishments, .resulte{
+    display:inline-block;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(255, 255, 255, 0.15);
+    padding:40px 60px 30px 60px;
+    padding-top:0px;
+    margin-top:100px;
+    background-color:rgba(255, 255, 255, 0.15);
+}
+.punishments{
+    display:none;
+}
+.resulte{
+    display:none;
+    max-width:500px;
+}
+h2{
+    display:inline-block;
+    margin:30px;
+    font-size:20px;
+    color:red;
+    text-shadow:0 0 5px black;
+    background-color:rgba(0, 0, 0, 0.15);
+    padding:5px 10px 5px 10px; 
+    border-radius:10px;
+    font-size:45px;
+}
+.player, .punishment{
+    width:110px;
+    padding:15px;
+    padding-left:10px;
+    margin:10px;
+    border:1px black solid;
+    border-radius:10px;
+    font-size:30px;
+}
+.punishment{
+    width:90%;
+}
+label{
+    color:rgb(0, 173, 14);
+    font-weight:bold;
+    font-size:38px;
+}
+.add, .delete, .add2, .delete2{
+    width:100%;
+    height:60px;
+    margin:30px 0px 30px 0px;
+    color:white;
+    font-size:35px;
+    font-weight:bold;
+    border:none;
+    border-radius:10px;
+}
+.add, .add2{
+    background:green;
+    margin-top:40px;
+}
+.add2, .delete2{
+    width:95%;
+}
+.delete, .delete2{
+    margin-top:5px;
+    background-color:red;
+}
+
+.next, .play{
+    margin:50px;
+    width:180px;
+    height:90px;
+    border:none;
+    border-radius:20px;
+    background-color:rgb(0, 90, 255);
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+.play{
+    display:none;
+}
+.resulte p{
+    display:inline-block;
+    font-weight:bold;
+    font-size:38px;
+    margin:5px;
+}
+.resulte1, .resulte2{
+    color:red;
+    text-shadow:0 0 5px black;
+    letter-spacing:2px;
+    background-color:rgba(0, 0, 0, 0.15);
+    padding:5px 10px 5px 10px; 
+    border-radius:10px;
+}
+.again, .edit{
+    background-color:rgba(0, 0, 0, 0);
+    border:none;
+}
+.again img, .edit img{
+    width:70px;
+    margin:20px 20px 0px 20px
+}
+.add, .delete, .add2, .delete2, .next, .play, .again, .edit:hover{
+    cursor:pointer;
+}
+.resultes{
+    border-top:white 2px solid;
+    border-bottom:white 2px solid;
+    padding:15px 0 15px 0;
+    margin-bottom:10px;
+    overflow-y: hidden;
+}

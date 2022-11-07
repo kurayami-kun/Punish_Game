@@ -1,0 +1,130 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    text-align:center;
+    background-color:rgb(55, 67, 83);
+    height:100vh;
+}
+h1{
+    display:inline-block;
+    border:5px rgb(218, 0, 0) dashed;
+    text-shadow:0px 0px 2px black;
+    box-shadow:0px 0px 2px black;
+    border-radius:10px;
+    padding:10px 20px 10px 20px;
+    color:rgb(218, 0, 0);
+    
+    letter-spacing:2px;
+    margin-top:20px;
+}
+#number{
+    width:30px;
+    padding:5px;
+}
+.players, .punishments, .resulte{
+    display:inline-block;
+    border-radius:10px;
+    box-shadow:0 0 5px rgba(255, 255, 255, 0.15);
+    padding:20px;
+    padding-top:0px;
+    margin-top:100px;
+    background-color:rgba(255, 255, 255, 0.15);
+}
+.punishments{
+    display:none;
+}
+.resulte{
+    display:none;
+}
+h2{
+    display:inline-block;
+    margin:10px;
+    font-size:20px;
+    color:red;
+    text-shadow:0 0 5px black;
+    background-color:rgba(0, 0, 0, 0.15);
+    padding:2px 5px 2px 5px; 
+    border-radius:5px;
+}
+.player, .punishment{
+    width:50px;
+    padding:5px;
+    margin:5px;
+    border:1px black solid;
+    border-radius:5px;
+}
+.punishment{
+    width:150px;
+}
+label{
+    color:rgb(0, 173, 14);
+    font-weight:bold;
+}
+.add, .delete, .add2, .delete2{
+    width:100%;
+    height:25px;
+    margin:15px 0px 5px 0px;
+    color:white;
+    font-size:large;
+    border:none;
+    border-radius:5px;
+}
+.add, .add2{
+    background:green;
+}
+.add2, .delete2{
+    width:95%;
+}
+.delete, .delete2{
+    margin-top:10px;
+    background-color:red;
+}
+
+.next, .play{
+    margin:20px;
+    width:80px;
+    height:40px;
+    border:none;
+    border-radius:10px;
+    background-color:rgb(0, 90, 255);
+    color:white;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+.play{
+    display:none;
+}
+.resulte p{
+    display:inline-block;
+    font-weight:bold;
+    margin:2px;
+}
+.resulte1, .resulte2{
+    color:red;
+    text-shadow:0 0 5px black;
+    letter-spacing:1px;
+    background-color:rgba(0, 0, 0, 0.15);
+    padding:2px 5px 2px 5px; 
+    border-radius:5px;
+}
+.again, .edit{
+    background-color:rgba(0, 0, 0, 0);
+    border:none;
+}
+.again img, .edit img{
+    width:35px;
+    margin:10px 10px 0px 10px
+}
+.add, .delete, .add2, .delete2, .next, .play, .again, .edit:hover{
+    cursor:pointer;
+}
+.resultes{
+    border-top:white 2px solid;
+    border-bottom:white 2px solid;
+    padding:5px 0 5px 0;
+    margin-bottom:10px;
+    text-align:left;
+}

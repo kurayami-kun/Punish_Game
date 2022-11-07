@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Punish Game</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no"/>
+        <link rel="stylesheet" href="pc.css"/>
+    </head>
+    <body>
+        <h1>Punish Game</h1>
+        <br/>
+        <div class="players">
+            <h2>-players-</h2>
+            <br/>
+            <label for="player1">player1</label>
+            <input id="player1" class="player" type="text" placeholder="name"/>
+            <br/>
+            <label for="player2">player2</label>
+            <input id="player2" class="player" type="text" placeholder="name"/>
+            <br/>
+            <button class="add">+</button>
+            <button class="delete">x</button>
+        </div>
+        <br/>
+        <button class="next">next</button>
+        <br/>
+        <div class="punishments">
+            <h2>-punishments-</h2>
+            <br/>
+            <input class="punishment" type="text" placeholder="punishment"/>
+            <br/>
+            <button class="add2">+</button>
+            <button class="delete2">x</button>
+        </div>
+        <br/>
+        <button class="play">play</button>
+        <div class="resulte">
+            <h2>the resulte</h2>
+            <div class="resultes">
+                <p>the victim:</p>
+                <p class="resulte1"></p>
+                <br/>
+                <p>the punishment:</p>
+                <p class="resulte2"></p>
+            </div>
+            <button class="again"><img src="https://cdn-icons-png.flaticon.com/512/189/189686.png"></button>
+            <button class="edit"><img src="https://library.kissclipart.com/20180918/yfq/kissclipart-database-configuration-icon-clipart-computer-icons-d4b5369c5e07dd4f.png"></button>
+        </div>
+        <br/>
+        <script src="pg.js"></script>
+    </body>
+</html>
